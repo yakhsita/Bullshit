@@ -1,0 +1,32 @@
+cd 
+# to change directory
+
+cd..
+# to go back to prev. directory
+
+cd/
+# to go to the root directory
+
+dir
+# for seeing what's in the directory
+
+mkdir
+# to make a directory
+
+echo "text" > file_name(ex: file1.txt)
+# to save text in the file
+
+file_name
+# for opening the file without spaces
+
+"file name"
+# If it contains spaces, and you wanna open it ("")
+
+color y
+# to see the color code
+
+color ab
+a-background b-text
+
+&&
+# to add comments
