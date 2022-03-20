@@ -13,6 +13,12 @@ dir
 mkdir
 # to make a directory
 
+rmdir
+# to remove a directory # also to delete the directory, it has to be empty
+
+del 
+# to delete files in directory
+
 echo "text" > file_name(ex: file1.txt)
 # to save text in the file
 
