@@ -28,6 +28,9 @@ file_name
 "file name"
 # If it contains spaces, and you wanna open it ("")
 
+start app_name(Ex:chrome) type_anything_you_wanna_google
+# To type something in an application
+
 color y
 # to see the color code
 
