@@ -1,0 +1,25 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("400x50")
+
+def callback2():
+    b2.pack_forget()
+    e.config(show='.')
+    b.pack()
+
+def callback():
+    b.pack_forget()
+    e.config(show='')
+    b2.pack()
+
+
+e = tk.Entry(root,show='*')
+e.pack()
+
+b = tk.Button(root, height=1, width=10, text="Show", command=callback)
+b.pack()
+
+b2 = tk.Button(root, height=1, width=10, text="Hide", command=callback2)
+
+    
+root.mainloop()
