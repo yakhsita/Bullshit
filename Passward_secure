@@ -4,7 +4,7 @@ root.geometry("400x50")
 
 def callback2():
     b2.pack_forget()
-    e.config(show='.')
+    e.config(show='*')
     b.pack()
 
 def callback():
